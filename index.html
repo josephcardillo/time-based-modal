@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Source+Code+Pro" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>j e l l y d o n u t s</title>
+  </head>
+
+  <body>
+
+    <header style="height:566px;">
+
+          <button onclick="myFunction()" class="dropbtn">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+          </button>
+
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">home</a>
+            <a href="#">flavors</a>
+            <a href="#">locations</a>
+          </div>
+
+    </header>
+
+      <div class="modal displaybox">
+        <h1>Love Jelly Donuts?</h1>
+        <p>Sign up for our newsletter!</p>
+        <form>
+          E-mail:
+          <input type="email" name="email">
+        </form>
+      </div>
+
+      <div class="">
+        <h1>Jelly Donuts Are For Lovers</h1>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="column">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+    <footer>
+
+    </footer>
+
+
+    <script>
+
+      var modal = document.getElementsByClassName('modal')[0];
+
+      function myFunc() {
+        $(".modal").show();
+      }
+
+      setTimeout(myFunc, 3000);
+    </script>
+
+  </body>
+</html>

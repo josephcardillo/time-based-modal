@@ -1,0 +1,117 @@
+/* dropdown button */
+.dropbtn {
+  background-color: #43101C;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+}
+
+/* dropdown button on hover and focus */
+.dropbtn:hover, .dropbtn:focus {
+  backgound-color: #2980B9;
+}
+
+/* the container <div> - needed to position the dropdown content */
+.dropdown {
+  /* float: right; */
+  position: absolute;
+  display: inline-block;
+  color: white;
+  right: 0;
+}
+
+/* dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  background-color: #28323C;
+  color: white;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  letter-spacing: 3px;
+  width: 200px;
+}
+
+/* links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+}
+
+/* change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+/* header background image */
+header {
+  background-image: url("jellydonuts.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* h1 attributes and values */
+h1 {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 44px;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+/* column flex-boxes */
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    padding: 0 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+/* .modalFont {
+    font-family: 'Source Code Pro', monospace;
+} */
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.modal {
+  display: none;
+}
+
+div.displaybox {
+  border: solid;
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  top: 25%;
+  left: 25%;
+  /* bottom: auto; */
+  /* right: auto; */
+}
