@@ -35,6 +35,7 @@
           E-mail:
           <input type="email" name="email">
         </form>
+        <button class="close-modal">close X</button>
       </div>
 
       <div class="">
@@ -64,6 +65,13 @@
       }
 
       setTimeout(myFunc, 3000);
+
+
+      $(".close-modal").click(function(){
+        $(".modal").hide();
+      });
+
+
     </script>
 
   </body>

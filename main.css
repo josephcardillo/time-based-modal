@@ -99,6 +99,14 @@ p {
     font-family: 'Source Code Pro', monospace;
 }
 
+button {
+    font-family: 'Source Code Pro', monospace;
+}
+
+form {
+    font-family: 'Source Code Pro', monospace;
+}
+
 .modal {
   display: none;
 }
@@ -112,6 +120,7 @@ div.displaybox {
   margin: auto;
   top: 25%;
   left: 25%;
+  background-color: white;
   /* bottom: auto; */
   /* right: auto; */
 }
